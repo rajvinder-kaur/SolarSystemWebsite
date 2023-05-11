@@ -1,0 +1,275 @@
+html {
+  background-color: black;
+  background-image: url("../images/PIA24681_Juno_Ganymede_Close-Up.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  font-family: "Tajawal", sans-serif;
+  font-size: larger;
+  padding: 0%;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+}
+.container1,
+.container2 {
+  background-color: rgb(236, 234, 234);
+}
+.section1 {
+  background-image: url("../images/pexels-pixabay-41951.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  color: whitesmoke;
+  padding: 1%;
+  font-size: x-large;
+  height: 100vh;
+  display: position;
+}
+.section1 > span {
+  font-size: 50px;
+  position: absolute;
+  margin-inline-start: 0ch;
+}
+.section1 > span > i {
+  font-size: 60px;
+}
+.sub{
+  padding:10px;
+  padding-top: 3%;
+}
+.sub > h1 {
+  color: goldenrod;
+  font-weight: 900;
+}
+.sub > h6 {
+  color: rgb(206, 117, 2);
+}
+nav {
+  /* float: right; */
+  display: flex;
+  /* position: absolute; */
+  justify-content: flex-end;
+  /* display:inline; */
+}
+.responsive-nav {
+  display: none;
+}
+.responsive-tag {
+  display: none;
+}
+button,
+#Submit {
+  background: transparent;
+  border: 1px solid gray;
+  color: aliceblue;
+  padding: 1%;
+  width: 20%;
+}
+button:hover,
+#Submit:hover {
+  background-color: rgba(0, 3, 15, 0.39);
+  color: rgb(221, 221, 221);
+  border-color: rgb(221, 221, 221);
+}
+.responsive-explore {
+  display: none;
+}
+.sub > h1 {
+  margin-block-end: 0%;
+  margin-block-start: 10%;
+}
+h6 {
+  margin-block-start: 0%;
+  margin-block-end: 1%;
+}
+nav > span:hover {
+  /* padding: 0.1%; */
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  color: black;
+  /* background-color:rgb(255, 253, 249);
+      color: rgb(255, 183, 0); */
+}
+nav > span > a {
+  color: inherit;
+}
+.responsive-nav {
+  display: none;
+}
+.heading2 {
+  padding-top: 5%;
+}
+.heading2 h2 {
+  font-size: 50px;
+}
+.heading1,
+.heading2,
+.heading3 {
+  text-align: center;
+}
+.heading1 > p {
+  margin-block-start: 1%;
+  font-size: small;
+}
+.li {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15%;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+  align-items: stretch;
+  color: rgb(75, 75, 75);
+}
+.subdiv1,
+.subdiv2,
+.subdiv3 {
+  margin: 1.5%;
+  background-color: whitesmoke;
+  padding: 3px;
+}
+#subdiv1 > h1,
+#subdiv2 > h1,
+#subdiv3 > h1 {
+  float: left;
+  padding-left: 2%;
+  margin-block-end: 1%;
+  margin-block-start: 2%;
+  width: 35px;
+}
+#subdiv1 > p,
+#subdiv2 > p,
+#subdiv3 > p {
+  margin-block-end: 1%;
+  margin-block-start: 4%;
+}
+a {
+  text-decoration: none;
+  color: rgb(73, 72, 72);
+}
+.heading3 {
+  margin-block-start: 8%;
+  color: rgb(75, 75, 75);
+}
+.additional_one {
+  padding-left: 20px;
+  padding-top: 30px;
+  color: whitesmoke;
+}
+.additional_one h1 {
+  color: rgb(148, 215, 241);
+}
+.container3 {
+  margin: 5%;
+}
+.section3 {
+  /* padding-left: 5%; */
+  background-color: black;
+}
+.section4 {
+  margin-left: 25%;
+}
+.subdiv {
+  display: flex;
+  margin: 5%;
+  color: aliceblue;
+
+  justify-content: space-between;
+}
+.section5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  background-image: url("../images/ivana-cajina-asuyh-_ZX54-unsplash.jpg");
+}
+.socialmedia {
+  color: aliceblue;
+  text-align: center;
+}
+.socialmedia > h2 {
+  padding-top: 7%;
+  margin-block-end: 0%;
+}
+.apps {
+  display: flex;
+  justify-content: center;
+}
+.apps > div {
+  margin: 2%;
+}
+ul {
+  list-style-type: none;
+}
+.section5 > p {
+  text-align: center;
+  padding: 3%;
+}
+form {
+  padding: 3%;
+  text-align: center;
+  color: azure;
+}
+caption {
+  font-weight: bolder;
+}
+#name,
+#email {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  border-bottom: 1px solid azure;
+  font-family: "Tajawal", sans-serif;
+}
+#name:hover,
+#email:hover {
+  background-color: rgba(255, 255, 255, 0.11);
+}
+#email {
+  margin-bottom: 2%;
+}
+#Submit {
+  width: 50%;
+}
+::-webkit-input-placeholder {
+  color: rgb(158, 158, 158);
+  font-family: inherit;
+  padding-left: 3px;
+}
+input:focus,
+input,
+input:visited {
+  outline-width: 0px;
+  color: inherit;
+  background-color: inherit;
+}
+form > p {
+  margin-block-start: 2px;
+}
+textarea {
+  margin-block-end: 4px;
+}
+/* @property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: true;
+  }
+  
+.div {
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+  .div:hover {
+    --num: 10000;
+  }
+  .div::after {
+    content: counter(num);
+  } 
+   */
+
+/* responsive css for mobile phones */

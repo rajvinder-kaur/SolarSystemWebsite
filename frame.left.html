@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f81090984d.js" crossorigin="anonymous"></script>
+    <style>
+        html{
+            font-size: xx-large;
+            /* background-color: rgb(1, 1, 19); */
+          font-family : 'Tajawal', sans-serif;
+          line-height: 50px;
+        }
+        button, input{
+            border:1px solid rgba(255, 255, 255, 0);
+            background-color: transparent;
+            font-family: 'Tajawal', sans-serif; 
+            font-size: x-large;
+            color: whitesmoke;
+        }
+       .search{
+            width: fit-content;
+            padding-bottom: 5px;
+            padding-left: 7px;
+            border-radius: 40px;
+            background-color: rgba(255, 255, 255, 0.301);
+        }
+        #submit:hover{
+          cursor: pointer;
+        }
+        #submit:active{
+            padding: 10px;
+            border-bottom: none;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        a:hover{
+            color: skyblue;
+        }
+        input{
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        input:focus{
+         outline-width: 0px;
+        }
+       ::-webkit-input-placeholder{
+          padding-left: 7px;
+       }
+       button{
+           margin-right: 5px;
+       } 
+       .mobile{
+           display: none;
+       }
+       .desktop{
+        display: block;
+       }
+       @media screen and (min-width:1080px) {
+           html{
+               margin: 0%;
+               background: url("../images/olena-sergienko-p8NSgvjEk-Y-unsplash.jpg");
+           }
+           body{
+               padding-top: 4%;
+               padding-left: 4%;
+               margin: 0%;
+           }
+           .desktop{
+               display: none;
+           }
+           .mobile{
+               display: block;
+           }
+       }
+    </style>
+</head>
+<body>
+    <div class="desktop">
+   <a href="mainpage.html" target="_blank"><i class="fas fa-arrow-left"></i></a> <br> <br>
+   <a href="news.html" target="right">News</a> <br>
+   <a href="https://solarsystem.nasa.gov/skywatching/home/"target="right">Skywatching Tips from Nasa</a><br>
+   <a href="https://solarsystem.nasa.gov/resources/all/?order=pub_date+desc&per_page=50&page=0&search=&condition_1=1%3Ais_in_resource_list&fs=&fc=&ft=&dp=&category="  target="right">Resources</a><br>
+   <a href="https://solarsystem.nasa.gov/raw-images/cassini-raw-images/?order=earth_date+desc&per_page=50&page=0" target="right">Raw Images</a><br>
+   <a href="https://solarsystem.nasa.gov/people/all/" target="right">People</a><br>
+   <a href="https://solarsystem.nasa.gov/missions/?order=launch_date+desc&per_page=50&page=0&search=&fs=&fc=&ft=&dp=&category=" target="right">Missions</a><br>
+   <a href="https://solarsystem.nasa.gov/science-goals/about/" target="right">Science Goals</a><br>
+   <a href="https://solarsystem.nasa.gov/technology-reports/2016-senior-review-of-operation-missions/" target="right">Technology Reports</a><br>
+   <a href="https://solarsystem.nasa.gov/kids/do-it-yourself/?page=0&per_page=40&order=created_at+desc&search=&category=139" target="right">Kids</a><br>
+   <a href="https://solarsystem.nasa.gov/interactives/" target="right">Interactives</a> <br> <br>
+  </div>
+  <div class="mobile">
+    <a href="mainpage.html" ><i class="fas fa-arrow-left"></i></a> <br> <br>
+    <a href="news.html" >News</a> <br>
+    <a href="https://solarsystem.nasa.gov/skywatching/home/">Skywatching Tips from Nasa</a><br>
+    <a href="https://solarsystem.nasa.gov/resources/all/?order=pub_date+desc&per_page=50&page=0&search=&condition_1=1%3Ais_in_resource_list&fs=&fc=&ft=&dp=&category=" >Resources</a><br>
+    <a href="https://solarsystem.nasa.gov/raw-images/raw-image-viewer/?order=earth_date+desc&per_page=50&page=0" >Raw Images</a><br>
+    <a href="https://solarsystem.nasa.gov/people/featured/" >People</a><br>
+    <a href="https://solarsystem.nasa.gov/missions/?order=launch_date+desc&per_page=50&page=0&search=&fs=&fc=&ft=&dp=&category=" >Missions</a><br>
+    <a href="https://solarsystem.nasa.gov/science-goals/about/" >Science Goals</a><br>
+    <a href="https://solarsystem.nasa.gov/technology-reports/2016-senior-review-of-operation-missions/" >Technology Reports</a><br>
+    <a href="https://solarsystem.nasa.gov/kids/do-it-yourself/?page=0&per_page=40&order=created_at+desc&search=&category=139" >Kids</a><br>
+    <a href="https://solarsystem.nasa.gov/interactives/" >Interactives</a> <br> <br>
+  </div>
+  <form action="https://www.google.com/search" target="blank">
+   <div class="search" >
+       <input type="text" id="text" placeholder="Search" name="q">
+     <button id="submit">
+        <i class="fas fa-search"></i>
+     </button>
+</div></form>
+</body>
+</html>
